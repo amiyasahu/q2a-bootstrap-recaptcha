@@ -280,9 +280,10 @@ function ami_get_costum_captcha_template()
     <style>
     table.qa-form-tall-table {margin-bottom: 20px; }
     .input-append {display: inline-block; margin-bottom: 0; vertical-align: middle; } 
-    #recaptcha_response_field{width:250px; display: inline; }
+    #recaptcha_response_field{width:240px; display: inline; }
     #recaptcha_image {display: block; max-width: 100%; max-height: 100%; min-height: 67px !important; min-width: 360px !important; height: auto !important; }
     </style>
+    <!-- <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css"> -->
     <div id="recaptcha_widget" style="display:none">
 
         <div class="control-group">
