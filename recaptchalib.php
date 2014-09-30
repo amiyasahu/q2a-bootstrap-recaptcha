@@ -300,10 +300,10 @@ function ami_get_costum_captcha_template()
               <div class="controls">
                   <div class="input-append">
                       <input type="text" id="recaptcha_response_field" name="recaptcha_response_field" class="input-recaptcha" placeholder="Enter the words above "/>
-                      <a class="btn addon btn-sm" href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a>
-                      <a class="btn addon btn-sm recaptcha_only_if_image" href="javascript:Recaptcha.switch_type('audio')"><i title="Get an audio CAPTCHA" class="fa fa-microphone"></i></a>
-                      <a class="btn addon btn-sm recaptcha_only_if_audio" href="javascript:Recaptcha.switch_type('image')"><i title="Get an image CAPTCHA" class="fa fa-image"></i></a>
-                      <a class="btn addon btn-sm" href="javascript:Recaptcha.showhelp()"><i class="fa fa-question"></i></a>
+                      <a class="btn btn-default btn-sm" href="javascript:Recaptcha.reload()"><i class="fa fa-refresh"></i></a>
+                      <a class="btn btn-default btn-sm recaptcha_only_if_image" href="javascript:Recaptcha.switch_type('audio')"><i title="Get an audio CAPTCHA" class="fa fa-microphone"></i></a>
+                      <a class="btn btn-default btn-sm recaptcha_only_if_audio" href="javascript:Recaptcha.switch_type('image')"><i title="Get an image CAPTCHA" class="fa fa-image"></i></a>
+                      <a class="btn btn-default btn-sm" href="javascript:Recaptcha.showhelp()"><i class="fa fa-question"></i></a>
                   </div>
               </div>
         </div>
